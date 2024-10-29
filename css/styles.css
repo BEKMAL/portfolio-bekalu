@@ -1021,7 +1021,7 @@ a:hover.back-to-top {
 	.basic-3 .image-container img {
 		margin: 0;
 		transition: all 0.2s;
-		width: 80%;
+		width: 70%;
 		height: 400px;
 	}
 
@@ -1238,7 +1238,13 @@ a:hover.back-to-top {
 		line-height: 4.625rem;
 	}
 	/* end of general styles */
-
+/* project image size on tablet */
+.basic-3 .image-container img {
+	margin: 0;
+	transition: all 0.2s;
+	width: 50%;
+	height: 500px;
+}
 
 	/* Navigation */
 	.navbar .container {
