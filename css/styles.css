@@ -623,8 +623,17 @@ input[type='checkbox'] {
 /*******************/
 .split .area-1 {
 	height: 430px;
-	background: linear-gradient(to bottom right, rgba(25, 26, 29, 0.5), rgba(25, 26, 29, 0.5)), url('../images/bekalu.jpg') center center no-repeat;
-	background-size: cover;
+	/* background:  url('../images/bekalu.jpg') center center no-repeat;
+	background-size: cover; */
+	margin-bottom:10%;
+	
+}
+.area-1 img {
+	/* background-color: lightgray; */
+	mix-blend-mode: multiply;
+	
+	
+	
 }
 
 .split .area-2 {
@@ -679,11 +688,14 @@ input[type='checkbox'] {
 	margin-right: auto;
 	margin-left: auto;
 }
-
+/* project image size on on mobile */
 .basic-3 .image-container img {
 	margin: 0;
 	transition: all 0.2s;
+	width: 90%;
+	height: 400px;
 }
+
 
 .basic-3 .image-container:hover img {
 	-moz-transform: scale(1.1);
@@ -1005,6 +1017,13 @@ a:hover.back-to-top {
 	}
 	/* end of header */
 
+	/* project image size on tablet */
+	.basic-3 .image-container img {
+		margin: 0;
+		transition: all 0.2s;
+		width: 80%;
+		height: 400px;
+	}
 
 	/* Services */
 	.basic-2 .text-box {
@@ -1040,6 +1059,13 @@ a:hover.back-to-top {
 	}
 	/* end of general styles */
 
+	/* project image size on desktop */
+	.basic-3 .image-container img {
+		margin: 0;
+		transition: all 0.2s;
+		width: 60%;
+		height: 500px;
+	}
 
 	/* Navigation */
 	.navbar {
