@@ -631,8 +631,8 @@ input[type='checkbox'] {
 .area-1 img {
 	/* background-color: lightgray; */
 	mix-blend-mode: multiply;
-	width:70%;
-	
+	width:400px;
+	padding: 10%;
 	
 	
 }
@@ -1061,13 +1061,21 @@ a:hover.back-to-top {
 	/* end of general styles */
 
 	/* project image size on desktop */
+	.area-1 img {
+		/* background-color: lightgray; */
+		
+		width:600px;
+		
+		
+		
+	}
 	.basic-3 .image-container img {
 		margin: 0;
 		transition: all 0.2s;
 		width: 60%;
 		height: 500px;
 	}
-
+  
 	/* Navigation */
 	.navbar {
 		padding-top: 1.75rem;
